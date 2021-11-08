@@ -1,0 +1,9 @@
+RETO: EL JUEGO DE DON HILBERTO
+Corría el año 1997 y Don Hilberto no podía más, se estaba mordiendo las uñas. Su barco le esperaba en media hora y era imposible iluminarte con su idea. 
+El tiempo pasaba y finalmente Don Hilberto no pudo esperarte para decirte cual sería el juego que revolucionaría la industria. Sin embargo, antes de partir hacia su destino, dejó una especie de código al lado de su máquina de escribir. ¿Podrás averiguar de qué juego hablaba Don Hilberto?
+
+65RGBVC | ZSEDCFT | CFT6YJM-GH | 6TGV-Y7-HN | 67UHJNB
+
+Nota: el formato de la flag es el habitual, por lo que empieza por HackOn{}.
+
+Creador: @pwnedshell
