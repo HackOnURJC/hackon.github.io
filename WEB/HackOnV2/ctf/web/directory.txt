@@ -1,0 +1,8 @@
+RETO: DIRECTORY
+¿Sabías que casi todas las compañías tienen un directorio central con toda la información de sus empleados? Parece ser que FlaggyMacFlag está escondiendo algo... ¿Puedes encontrarlo?
+
+URL -> https://web2-hack0n.numa.host
+
+Nota: el formato de la flag es el habitual, por lo que empieza por HackOn{}.
+
+Creador: @rmartinsanta

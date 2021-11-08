@@ -1,0 +1,4 @@
+RETO: GHOSTBUSTER
+¿Existen los fantasmas? Nosotros creemos que sí, ¿serás capaz de encontrarlos?
+
+Nota: el formato de la flag es el habitual, por lo que empieza por HackOn{}.
