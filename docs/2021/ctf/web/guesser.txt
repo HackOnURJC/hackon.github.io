@@ -1,0 +1,9 @@
+RETO: GUESSER
+¡Has perdido el acceso a tu cuenta de empleado y no estás recibiendo los códigos de recuperación! Por suerte, tenías un backup del código fuente del servidor de autenticación. 
+¿Podrás averiguar el número y recuperar tu acceso?
+
+URL -> https://web1-hack0n.numa.host
+
+Nota: el formato de la flag es el habitual, por lo que empieza por HackOn{}.
+
+Creador: @rmartinsanta

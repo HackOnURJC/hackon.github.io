@@ -1,0 +1,7 @@
+RETO: THEY ARE COMING FOR US...
+Mi amigo J. P. García me ha enviado esta imagen. Dice que hay un mensaje oculto pero la imagen parece corrupta... 
+¿Podrías ayudarnos a recuperar el mensaje?
+
+Nota: el formato de la flag es el habitual, por lo que empieza por HackOn{}.
+
+Creador: @SergioP3red
