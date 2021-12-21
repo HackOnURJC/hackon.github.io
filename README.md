@@ -12,3 +12,4 @@ Este repositorio y la web es posible gracias estos voluntarios, fundadores y org
 * **Javier Sánchez** - [Kaputt4](https://github.com/Kaputt4)
 * **Alejandro Bermejo** - [R00tedSec](https://github.com/R00tedSec)
 * **Alejandro Cruz** - [PwnedShell](https://github.com/PwnedShell)
+* **Ismael Esquilichi** - [Esquilichi](https://github.com/esquilichi)
