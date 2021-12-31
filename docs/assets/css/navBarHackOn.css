@@ -2,6 +2,17 @@ a:hover {
   color: #8b0f0c;
 }
 
+a.dropdown-item {
+  color: rgb(255,255,255);
+  background: #343a40;
+}
+
+a.dropdown-item:hover {
+  color: rgb(255,255,255);
+  font-weight: bold;
+  background: #8b0f0c;
+}
+
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #fed136;
 }
