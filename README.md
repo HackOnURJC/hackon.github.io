@@ -13,3 +13,5 @@ Este repositorio y la web es posible gracias estos voluntarios, fundadores y org
 * **Alejandro Bermejo** - [R00tedSec](https://github.com/R00tedSec)
 * **Alejandro Cruz** - [PwnedShell](https://github.com/PwnedShell)
 * **Ismael Esquilichi** - [Esquilichi](https://github.com/esquilichi)
+* **José Luis Gallego** - [Skualid](https://github.com/Skualid)
+* **Jesús Ramírez** - [yisusrg05](https://github.com/yisusrg05)
