@@ -1,6 +1,0 @@
-RETO: PROJECT MAYHEM 1
-Nos  hemos  enterado  de  que @caradeangel1999 es  un  miembro  de un grupo terrorista que planea dar un golpe de manera inminente. Sabemos que está comunicándose con sus integrantes de alguna manera. Necesitamos tu ayuda para averiguar el contenido de estos mensajes.
-
-Nota: el formato de la flag es el habitual, por lo que empieza por HackOn{}.
-
-Creadores: @caveeroo y @diegoaltf4

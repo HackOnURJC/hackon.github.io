@@ -1,4 +1,0 @@
-RETO: WOULD YOU PET ME?
-Estás decidido a sacarte la ruta pacifista de Undertale y este amable perrito te pide una flag para que se vaya amistosamente y te dé un par de lametones. ¿O quizás meta-lametones? 
-
-Nota: el formato de la flag es el habitual, por lo que empieza por HackOn{}.
