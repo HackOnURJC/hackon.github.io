@@ -1,7 +1,0 @@
-RETO: /HOME
-El director de la facultad de Ciencias y Computación tiene la sensación de que los docentes se dedican a jugar a un juego en sus ratos libres y ha contactado contigo para que averigües de qué juego se trata. 
-Has conseguido acceso a los directorios de toda la organización. ¿Serás capaz de averiguar a qué juegan los docentes?
-
-Nota: el formato de la flag es el habitual, por lo que empieza por HackOn{}.
-
-Creador: @pwnedshell
