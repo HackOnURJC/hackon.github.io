@@ -1,8 +1,0 @@
-RETO: GNIBBANBAT
-¡Mira nuestro nuevo scrapper! Puede parsear información de distintas redes sociales, ¡sólo tenemos que convencer a unos cuantos usuarios para que nos envíen sus links y vender su información!
-
-URL -> https://web3-hack0n.numa.host
-
-Nota: el formato de la flag es el habitual, por lo que empieza por HackOn{}.
-
-Creador: @rmartinsanta

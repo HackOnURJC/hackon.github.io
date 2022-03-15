@@ -1,0 +1,13 @@
+La complejidad de este reto es caer en en pasar la imágen por steghide. Con el comando steghide extract -sf pikachu.jpg se puede obtener el fichero que se encuentra en su interior llamado flag ya que no hace falta ningún pasphrase.
+
+Una vez se tiene este fichero, se debe caer en que esta en binario pero se han cambiado los 0 y 1 por las silabas pi y ka. Para revertirlo se puede utilizar la función de Cyberchef Find/Replace o hacer un script en el lenguaje de programación preferido como el que se muestra abajo, escrito en Python.
+
+flag = open('flag', 'r')
+text = flag.read()
+
+text = text.replace('pi','0')
+text = text.replace('ka','1')
+
+print(text)
+flag.close()
+Tras este paso se tiene el texto en codificación binaria por octetos y solamente hace falta pasarlo de binario a ASCII, lo cual con la operación From Binary de Cyberchef se puede hacer rapidamente. Una vez hecho todo esto se tendría la flag.

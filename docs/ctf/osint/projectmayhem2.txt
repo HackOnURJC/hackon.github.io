@@ -1,6 +1,0 @@
-RETO: PROJECT MAYHEM 2
-Comunicaciones interceptadas hablan de la elaboración de una bomba. Tenemos que saber cuál va a ser el objetivo para poder evitar una catástrofe. Tal y como indica el mensaje anterior, el método de comunicación ha cambiado.
-
-Nota: el formato de la flag es el habitual, por lo que empieza por HackOn{}.
-
-Creadores: @caveeroo y @diegoaltf4

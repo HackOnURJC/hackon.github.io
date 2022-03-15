@@ -1,0 +1,5 @@
+En este reto se dipone de una imagen en formato jpg.
+
+Lo importante de esta imagen son los metadatos, hay que acceder a ellos y analizarlos. Para ello en este writeup se utiliza la herramienta exiftool, con utilizarla sobre la imagen a través del comando exiftool spiderman.jpg se consiguen los metadatos.
+
+Posteriormete, se analizan estos y se ve que en el campo artista hay una cadena extraña, esta está en base64, por lo que hay que pasarla de base64 a texto con el comando base64 o a través de cyberchef y se obtiene la flag.
