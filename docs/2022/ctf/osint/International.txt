@@ -1,0 +1,3 @@
+Llevamos meses persiguiendo a un criminal internacional de tráfico de armas, y por fin hemos conseguido una pista. Nos ayudas a localizarle? La única información que tenemos es este borrador recuperado de un servidor de correo incautado.
+
+Para poder rastrearle necesitamos el número de serie del avión en el que se ha montado nuestro sospechoso. Flag: HackOn{num_serie}

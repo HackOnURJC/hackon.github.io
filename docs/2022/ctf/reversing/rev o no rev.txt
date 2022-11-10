@@ -1,0 +1,1 @@
+Al parecer un gracioso ha creado un flagChecker para la HackOn pero no nos ha dado la flag. ¿Puedes averiguarla?
