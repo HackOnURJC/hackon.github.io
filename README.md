@@ -15,3 +15,4 @@ Este repositorio y la web es posible gracias estos voluntarios, fundadores y org
 * **Ismael Esquilichi** - [Esquilichi](https://github.com/esquilichi)
 * **José Luis Gallego** - [Skualid](https://github.com/Skualid)
 * **Jesús Ramírez** - [yisusrg05](https://github.com/yisusrg05)
+* **Eduardo Pascual** - [edupasc](https://github.com/edupasc)
