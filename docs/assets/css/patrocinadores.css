@@ -1,0 +1,11 @@
+body {
+    padding-top: 70px;
+}
+
+.card-title {
+    background: #76d061;
+}
+
+.card-body {
+    vertical-align: center;
+}
