@@ -3,9 +3,15 @@ body {
 }
 
 .card-title {
-    background: #76d061;
+    text-decoration: underline;
 }
 
 .card-body {
     vertical-align: center;
+}
+
+.card-img {
+    display: block;
+    height: 150px;
+    width: auto;
 }
