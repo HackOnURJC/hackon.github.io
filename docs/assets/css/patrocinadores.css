@@ -1,0 +1,17 @@
+body {
+    padding-top: 70px;
+}
+
+.card-title {
+    text-decoration: underline;
+}
+
+.card-body {
+    vertical-align: center;
+}
+
+.card-img {
+    display: block;
+    height: 150px;
+    width: auto;
+}
