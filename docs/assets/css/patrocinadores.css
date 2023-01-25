@@ -12,6 +12,12 @@ body {
 
 .card-img {
     display: block;
+    height: 300px;
+    width: auto;
+}
+
+.card-img-colaboradores {
+    display: block;
     height: 150px;
     width: auto;
 }
