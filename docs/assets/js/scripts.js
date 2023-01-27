@@ -47,3 +47,8 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+$(function(){
+  $("#navbarPrincipal").load("navbarPrincipal.html"); 
+  $("#footer").load("footer.html"); 
+});
