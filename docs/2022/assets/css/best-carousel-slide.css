@@ -21,7 +21,7 @@ p.hero-subtitle {
 }
 
 .plat {
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 .btn-primary.focus, .btn-primary:focus {
