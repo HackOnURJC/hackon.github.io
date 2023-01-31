@@ -1,3 +1,0 @@
-Demuestra tus dotes de dective en uno de los juegos de Hilberto. Para empezar a jugar dile a hilberto lo siguiente:
-
-/osint

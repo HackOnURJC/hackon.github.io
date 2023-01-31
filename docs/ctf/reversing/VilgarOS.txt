@@ -1,1 +1,0 @@
-Me he creado mi propio sistema operativo, pero no sé si ha sido buena idea. Le puse una contraseña a mi bootloader y no me acuerdo de ella. ¿Me ayudarías a bootear? Nota: La flag es la contraseña dentro del formato de flag HackOn{}. Si por ejemplo la contraseña es password1, la flag será HackOn{password1}
