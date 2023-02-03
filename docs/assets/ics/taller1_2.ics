@@ -26,7 +26,7 @@ DTSTAMP:20230203T110908Z
 DTSTART;TZID=Europe/Madrid:20230216T150000
 DTEND;TZID=Europe/Madrid:20230216T170000
 SUMMARY:Auditoría de aplicaciones móviles
-URL:https://hackon.es/talleres/Jose_Mar%2525C3%2525ADa.html
+URL:https://hackon.es/talleres/Jose_Mar%2525C3%2525ADa
 DESCRIPTION:Ponente: Jose María Bedoya Bayarre\nResumen: Taller orientado a la iniciación en la auditoria de aplicaciones móviles las cuales se encuentran presentes en nuestro día a día y representan un gran riesgo en cuanto a la seguridad informática se refiere. El taller abarcara la preparación del entorno para la auditoria de estas aplicaciones\, así como ejemplos y herramientas típicas para la auditoria de las mismas o evasión de las principales protecciones que estas puedan tener para evitar su análisis o ingeniería inversa.
 LOCATION:Aula 004\, Aulario II\, Universidad Rey Juan Carlos\, Móstoles (España)
 BEGIN:VALARM

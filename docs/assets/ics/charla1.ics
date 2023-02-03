@@ -26,7 +26,7 @@ DTSTAMP:20230203T110657Z
 DTSTART;TZID=Europe/Madrid:20230216T093000
 DTEND;TZID=Europe/Madrid:20230216T100000
 SUMMARY:Machine Learning aplicado a la Ciberseguridad
-URL:https://hackon.es/charlas/Alberto_y_Esperanza.html
+URL:https://hackon.es/charlas/Alberto_y_Esperanza
 DESCRIPTION:Ponentes: Alberto González Morales y Esperanza Rodríguez Correa\nResumen: en esta ponencia se presentará como el Machine Learning puede ayudar al reconocimiento temprano de distintas amenazas.
 LOCATION:Aula Magna 003\, Aulario II\, Universidad Rey Juan Carlos\, Móstoles (España)
 BEGIN:VALARM

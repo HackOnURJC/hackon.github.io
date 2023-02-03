@@ -26,7 +26,7 @@ DTSTAMP:20230203T110741Z
 DTSTART;TZID=Europe/Madrid:20230216T090000
 DTEND;TZID=Europe/Madrid:20230216T093000
 SUMMARY:Apertura de la jornada
-URL:https://hackon.es/charlas/charlas.html
+URL:https://hackon.es/charlas/charlas
 DESCRIPTION:Comité organizador
 LOCATION:Aula Magna 003\, Aulario II\, Universidad Rey Juan Carlos\, Móstoles (España)
 BEGIN:VALARM

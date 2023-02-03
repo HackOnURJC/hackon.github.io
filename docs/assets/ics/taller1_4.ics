@@ -26,7 +26,7 @@ DTSTAMP:20230203T110933Z
 DTSTART;TZID=Europe/Madrid:20230216T150000
 DTEND;TZID=Europe/Madrid:20230216T170000
 SUMMARY:Descubre las oportunidades que ofrece el mundo de la ciberseguridad... y resuelve con nosotros un caso de ciberespionaje
-URL:https://hackon.es/talleres/Anton_y_Jorge.html
+URL:https://hackon.es/talleres/Anton_y_Jorge
 DESCRIPTION:Ponentes: Anton Kovalev y Jorge Cia Alcázar\nResumen: Dividiremos el taller en dos partes\, la primera va dedicada a contar e indagar en las distintas oportunidadesque ofrece el mundo de la ciberseguridad poniendo ejemplos de proyectos en los que hemos trabajado. En la segunda parte\, resolveremos un caso de ciberespionaje en directo. ¡Es importante traer el ordenador para poder participar!
 LOCATION:Aula 203\, Aulario II\, Universidad Rey Juan Carlos\, Móstoles (España)
 BEGIN:VALARM

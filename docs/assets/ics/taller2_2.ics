@@ -26,7 +26,7 @@ DTSTAMP:20230203T110959Z
 DTSTART;TZID=Europe/Madrid:20230216T170000
 DTEND;TZID=Europe/Madrid:20230216T190000
 SUMMARY:Introducción a Windows Internals
-URL:https://hackon.es/talleres/Daniel_y_Alejandro.html
+URL:https://hackon.es/talleres/Daniel_y_Alejandro
 DESCRIPTION:Ponentes: Daniel Monzón Peso y Alejandro Pinna Toral\nResumen: En este taller se explicarán conceptos sobre los Internals del sistema operativo Windows\, tales como la interacción entre la capa de usuario y el kernel...
 LOCATION:Aula 004\, Aulario II\, Universidad Rey Juan Carlos\, Móstoles (España)
 BEGIN:VALARM

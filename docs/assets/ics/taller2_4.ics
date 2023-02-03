@@ -26,7 +26,7 @@ DTSTAMP:20230203T111022Z
 DTSTART;TZID=Europe/Madrid:20230216T170000
 DTEND;TZID=Europe/Madrid:20230216T190000
 SUMMARY:Phishing en la vida real\, cazando cibercriminales
-URL:https://hackon.es/talleres/Luc%2525C3%2525ADa_Cachinero.html
+URL:https://hackon.es/talleres/Luc%2525C3%2525ADa_Cachinero
 DESCRIPTION:Ponente: Lucía Cachinero\nResumen: En este taller vamos a conocer cómo se realiza una investigación desde el ámbito de la ciberinteligencia en el mundo real\, concretamente de una campaña de phishing activa. El taller se dividirá en dos partes principales...
 LOCATION:Aula 207\, Aulario II\, Universidad Rey Juan Carlos\, Móstoles (España)
 BEGIN:VALARM

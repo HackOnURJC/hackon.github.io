@@ -26,7 +26,7 @@ DTSTAMP:20230203T110852Z
 DTSTART;TZID=Europe/Madrid:20230216T150000
 DTEND;TZID=Europe/Madrid:20230216T170000
 SUMMARY:The Hound of the ADvilles
-URL:https://hackon.es/talleres/Alejandro_y_Luis.html
+URL:https://hackon.es/talleres/Alejandro_y_Luis
 DESCRIPTION:Ponentes: Alejandro de la Cruz y Luis Alberto Pacheco\nResumen: Sherlock\, ¿estás cansado de no entender ni papa de qué es un Directorio Activo? En este taller se dará una introducción básica basándonos en la herramienta de enumeración BloodHound. Empezaremos viendo para qué sirve esta herramienta y\, en una segunda parte\, aprenderemos a ser buenos sabuesos para aprovechar al máximo su potencial y conocer\, enumerar y comprometer un dominio.
 LOCATION:Aula 002\, Aulario II\, Universidad Rey Juan Carlos\, Móstoles (España)
 BEGIN:VALARM

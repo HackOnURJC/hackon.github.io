@@ -26,7 +26,7 @@ DTSTAMP:20230203T110945Z
 DTSTART;TZID=Europe/Madrid:20230216T170000
 DTEND;TZID=Europe/Madrid:20230216T190000
 SUMMARY:Introducción al Hardening Linux
-URL:https://hackon.es/talleres/Alejandro_y_Javi.html
+URL:https://hackon.es/talleres/Alejandro_y_Javi
 DESCRIPTION:Ponentes: Alejandro Bermejo Pérez y Javier Sánchez García-Ochoa\nResumen: En este taller aprenderás los conceptos básicos sobre el Hardening de Linux y su importancia de forma práctica y dinámica. Aprenderás a generar tus propios puntos de Hardening y verificarlos con herramientas automáticas...
 LOCATION:Aula 002\, Aulario II\, Universidad Rey Juan Carlos\, Móstoles (España)
 BEGIN:VALARM

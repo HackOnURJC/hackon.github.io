@@ -26,7 +26,7 @@ DTSTAMP:20230203T110823Z
 DTSTART;TZID=Europe/Madrid:20230216T121500
 DTEND;TZID=Europe/Madrid:20230216T124500
 SUMMARY:Pentesting de Aplicaciones Móviles Android
-URL:https://hackon.es/charlas/Jose_Andres_Hernandez_Chavez.html
+URL:https://hackon.es/charlas/Jose_Andres_Hernandez_Chavez
 DESCRIPTION:Ponente: José Andrés Hernández Chávez\nResumen: durante la actividad se hará un repaso de las distintas fases que atraviesa un Pentest de aplicación móvil Android\, así como los checks realizados en cada una de las fases junto a herramientas que facilitan el proceso de auditoría. También se explicará brevemente las protecciones habitualmente implementadas en este tipo de activos y herramientas para evadirlas. Por último\, se expondrán algunas de las vulnerabilidades comúnmente reportadas.
 LOCATION:Aula Magna 003\, Aulario II\, Universidad Rey Juan Carlos\, Móstoles (España)
 BEGIN:VALARM

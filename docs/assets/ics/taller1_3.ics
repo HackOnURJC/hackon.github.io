@@ -26,7 +26,7 @@ DTSTAMP:20230203T110919Z
 DTSTART;TZID=Europe/Madrid:20230216T150000
 DTEND;TZID=Europe/Madrid:20230216T170000
 SUMMARY:Cómo responder a un incidente de ransomware… y salir vivo de ello
-URL:https://hackon.es/talleres/Marta_y_Jorge.html
+URL:https://hackon.es/talleres/Marta_y_Jorge
 DESCRIPTION:Ponentes: Marta Pastor Puente y Jorge Martínez García\nResumen: El objetivo de este taller es presentar a los alumnos los primeros pasos a acometer en la respuesta a un escenario de infección de ransomware en un entorno controlado\, desde la detección inicial del incidente hasta la fase de recuperación\, pasando por el análisis forense del entorno para identificar las acciones realizadas por el atacante y las fases de contención y erradicación para asegurar que la amenaza queda controlada...
 LOCATION:Aula 207\, Aulario II\, Universidad Rey Juan Carlos\, Móstoles (España)
 BEGIN:VALARM

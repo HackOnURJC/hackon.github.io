@@ -26,7 +26,7 @@ DTSTAMP:20230203T110835Z
 DTSTART;TZID=Europe/Madrid:20230216T130000
 DTEND;TZID=Europe/Madrid:20230216T133000
 SUMMARY:Detección y análisis de los riesgos de la ciberseguridad derivados de la huella digital
-URL:https://hackon.es/charlas/Mar%2525C3%2525ADa_Jes%2525C3%2525BAs_Casado.html
+URL:https://hackon.es/charlas/Mar%2525C3%2525ADa_Jes%2525C3%2525BAs_Casado
 DESCRIPTION:Ponente: María Jesús Casado de Amezúa Martínez\nResumen: ejercicio de identificación de la huella digital del target a partir de OSINT (fuentes abiertas) y de puntos potencialmente explotables por un ciber atacante. Es decir\, realización de un Zero Knowledge assesment previo al lanzamiento de una acción ofensiva. Este ejercicio incluye identificación de puntos de exposición relacionados con información interna de la infraestructura de red\, exfiltración de credenciales\, metadatos\, tráfico de información en dark web\, otras fugas de información sensible\, riesgos de phishing\, tecnologías afectadas por vulnerabilidades conocidas y riesgos derivados de la exposición de terceros potencialmente explotables.
 LOCATION:Aula Magna 003\, Aulario II\, Universidad Rey Juan Carlos\, Móstoles (España)
 BEGIN:VALARM
