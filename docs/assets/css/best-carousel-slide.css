@@ -66,6 +66,12 @@ span {
   padding: 10px;
 }
 
+.nestedBulletList {
+  list-style-type: circle;
+  list-style-position: inside;
+  margin-left: 30px;
+}
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
