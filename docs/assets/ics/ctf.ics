@@ -1,0 +1,66 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20230203T122914Z
+DTSTART;TZID=Europe/Madrid:20230213T120000
+DTEND;TZID=Europe/Madrid:20230215T120000
+SUMMARY:HackOn CTF
+URL:https://hackon.es/ctf
+DESCRIPTION:Competición Capture the Flag del evento HackOn 2023.\nRealizada de manera completamente individual y en remoto.
+LOCATION:En remoto
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:HackOn CTF
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230203T122914Z
+DTSTART;TZID=Europe/Madrid:20230215T120000
+DTEND;TZID=Europe/Madrid:20230215T235500
+SUMMARY:Envío de write-ups CTF
+URL:https://hackon.es/ctf
+DESCRIPTION:Envío de los write-ups solicitados por la organización a los primeros clasificados para decidir la clasificación definitiva. Este paso es obligatorio y su no realización puede derivar en no optar a premio.\nLos write-ups serán solicitados por correo electrónico a todos los participantes con opciones matemáticas a ganar siguiendo la asignación de puntos detallada en las bases de la competición.
+LOCATION:En remoto
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Envío de write-ups CTF
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230203T122914Z
+DTSTART;TZID=Europe/Madrid:20230216T190000
+DTEND;TZID=Europe/Madrid:20230216T200000
+SUMMARY:Publicación de resultados y entrega de premios CTF
+URL:https://hackon.es/ctf
+DESCRIPTION:Anuncio de la clasificación final y de los tres primeros clasificados\, que serán premiados con obsequios proporcionados por las empresas patrocinadoras.\nEl enlace a la sesión será enviado con antelación a los participantes del CTF.
+LOCATION:En remoto
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Publicación de resultados y entrega de premios CTF
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
