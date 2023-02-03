@@ -486,7 +486,7 @@ ul {
 }
 
 .tile-2 {
-  background-color: #343A40;
+  background-color: #2d2d2d;
   color: white;
 }
 
@@ -576,7 +576,7 @@ ul {
 
 /* slide text inside tile to the right */
 
-.slideTextRight div:first-child {
+.slideTextRight div:nth-child(2) {
   left: -100%;
 }
 
@@ -596,6 +596,12 @@ ul {
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   transform: translateX(-100%);
+}
+
+/* disable pointer cursor on hover slideText divs */
+
+.slideTextLeft, .slideTextRight, .slideTextUp {
+  cursor: default;
 }
 
 /* rotate tile in 3D */
