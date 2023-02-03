@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20230203T110755Z
+UID:1675420630526-13313@ical.marudot.com
+DTSTART;TZID=Europe/Madrid:20230216T101500
+DTEND;TZID=Europe/Madrid:20230216T104500
+SUMMARY:Hardware Hacking 101
+URL:https://hackon.es/charlas/Pedro_Candel.html
+DESCRIPTION:Ponente: Pedro Candel aka s4ur0n\nResumen: describiremos cómo realizar una investigación de seguridad a dispositivos IoT o Hardware para encontrar vulnerabilidades en ellos. Pasaremos por analizar la superficie de ataque y vulnerar aquellos aspectos más débiles que encontremos. Realizaremos una demo en directo sobre un dispositivo donde no quedará del todo bien la seguridad empleada por el mismo...
+LOCATION:Aula Magna 003\, Aulario II\, Universidad Rey Juan Carlos\, Móstoles (España)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hardware Hacking 101
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

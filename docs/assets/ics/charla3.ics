@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20230203T110811Z
+DTSTART;TZID=Europe/Madrid:20230216T110000
+DTEND;TZID=Europe/Madrid:20230216T113000
+SUMMARY:Offensive Security: Building (blackhat) tools
+URL:https://hackon.es/charlas/Pablo_Gonzalez.html
+DESCRIPTION:Ponente: Pablo González\nResumen: la investigación en Ciberseguridad es algo fundamental para mejorar la seguridad de los sistemas y de las protecciones de hoy en día y de las que vendrán. Las amenazas evolucionan con el crecimiento de la tecnología y la investigación aporta ese "must" que debemos entender para mejorar las protecciones. Procedimientos como el hacking ético\, la auditoría o el pentesting son herramientas necesarias para evaluar la seguridad de una organización. Por esta razón la creación de herramientas y la investigación en técnicas de seguridad ofensiva proporciona la posibilidad de mejorar la seguridad a nivel global. En esta charla se mostrará como el equipo de IdeasLocas ha ido construyendo algunas herramientas de seguridad a lo largo de los últimos años y el objetivo que tenían éstas. Con la suerte de haber sido herramientas BlackHat (Europe and USA). Haremos un repaso de cómo nacieron estas herramientas y cómo fueron desarrolladas.
+LOCATION:Aula Magna 003\, Aulario II\, Universidad Rey Juan Carlos\, Móstoles (España)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Offensive Security: Building (blackhat) tools
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
