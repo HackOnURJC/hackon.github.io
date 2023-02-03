@@ -481,7 +481,7 @@ ul {
 /* styling the individual tiles */
 
 .tile-1 {
-  background-color: #8b0f0c;
+  background-color: #a30704;
   color: white;
 }
 
@@ -492,31 +492,31 @@ ul {
 
 .tile-2:hover {
   background-color: white;
-  color: #2d2d2d;
+  color: #455962;
 }
 
 .tile-3 {
   background-color: #ddd;
-  color: #2d2d2d;
+  color: #455962;
 }
 
 .tile-3:hover {
   background-color: white;
-  color: #2d2d2d;
+  color: #455962;
 }
 
 .tile-5 {
-  background-color: #8b0f0c;
+  background-color: #FCC120;
   color: white;
 }
 
 .tile-5:hover {
   background-color: #fff;
-  color: #8b0f0c;
+  color: #FCC120;
 }
 
 .tile-6 {
-  background-color: #8b0f0c;
+  background-color: #a30704;
   color: white;
 }
 
@@ -525,13 +525,13 @@ ul {
 }
 
 .tile-10 {
-  background-color: #8b0f0c;
+  background-color: #F0514A;
   color: white;
 }
 
 .tile-10:hover {
   background-color: white;
-  color: #8b0f0c;
+  color: #F0514A;
 }
 
 .tile-10 div {
@@ -576,7 +576,7 @@ ul {
 
 /* slide text inside tile to the right */
 
-.slideTextRight div:first-child {
+.slideTextRight div:nth-child(2) {
   left: -100%;
 }
 
@@ -596,6 +596,12 @@ ul {
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   transform: translateX(-100%);
+}
+
+/* disable pointer cursor on hover slideText divs */
+
+.slideTextLeft, .slideTextRight, .slideTextUp {
+  cursor: default;
 }
 
 /* rotate tile in 3D */
