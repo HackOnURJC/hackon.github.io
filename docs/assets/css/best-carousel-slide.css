@@ -64,12 +64,20 @@ span {
   list-style-position: inside;
   margin-bottom: 30px;
   padding: 10px;
+  text-align: justify;
+}
+
+.bulletList li,
+.nestedBulletList li {
+  margin-top: 5px;
+  text-align: left;
 }
 
 .nestedBulletList {
   list-style-type: circle;
   list-style-position: inside;
   margin-left: 30px;
+  text-align: justify;
 }
 
 /* The Modal (background) */
