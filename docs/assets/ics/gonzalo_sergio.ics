@@ -24,11 +24,11 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTSTAMP:20240119T154940Z
 UID:1675420630526-13313@ical.marudot.com
-DTSTART;TZID=Europe/Madrid:20240222T153000
-DTEND;TZID=Europe/Madrid:20240222T163000
-SUMMARY:La Amenaza Cuántica a la Ciberseguridad: Desafíos y Soluciones.
-URL:https://hackon.es/charlas/Jordi_Prieto.html
-DESCRIPTION:Ponente: Jordi Prieto\nResumen: La era de la computación cuántica está a la vuelta de la esquina\, trayendo consigo desafíos significativos para la criptografía convencional. En esta charla\, exploraremos cómo la computación cuántica pone en riesgo los algoritmos criptográficos actuales\, poniendo en jaque toda la criptografía asimétrica actual y discutiremos la necesidad urgente de transitar hacia sistemas criptográficos post-cuánticos
+DTSTART;TZID=Europe/Madrid:20240222T190000
+DTEND;TZID=Europe/Madrid:20240222T194500
+SUMMARY:ROP-Assisted Malware
+URL:https://hackon.es/charlas/Gonzalo_y_Sergio.html
+DESCRIPTION:Ponente: Sergio Rubia y Gonzalo Frontela\nResumen: Presentación de servicios de MDR y de Threat Hunting, así como sus sinergias, enfocándonos en las diferencia entre las búsquedas proactivas vs preventivas/reactivas. Junto con una demostración con una herramienta puntera en materia de Endpoint Detect and Response (EDR).
 LOCATION:Aula 102\, Aulario II\, Universidad Rey Juan Carlos\, Móstoles (España)
 END:VEVENT
 END:VCALENDAR

@@ -24,11 +24,11 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTSTAMP:20240119T154940Z
 UID:1675420630526-13313@ical.marudot.com
-DTSTART;TZID=Europe/Madrid:20240222T153000
-DTEND;TZID=Europe/Madrid:20240222T163000
-SUMMARY:La Amenaza Cuántica a la Ciberseguridad: Desafíos y Soluciones.
-URL:https://hackon.es/charlas/Jordi_Prieto.html
-DESCRIPTION:Ponente: Jordi Prieto\nResumen: La era de la computación cuántica está a la vuelta de la esquina\, trayendo consigo desafíos significativos para la criptografía convencional. En esta charla\, exploraremos cómo la computación cuántica pone en riesgo los algoritmos criptográficos actuales\, poniendo en jaque toda la criptografía asimétrica actual y discutiremos la necesidad urgente de transitar hacia sistemas criptográficos post-cuánticos
+DTSTART;TZID=Europe/Madrid:20240222T190000
+DTEND;TZID=Europe/Madrid:20240222T194500
+SUMMARY:ROP-Assisted Malware
+URL:https://hackon.es/charlas/Rafael_y_Aitor.html
+DESCRIPTION:Ponente: Rafael López y Aitor Herrero\nResumen: Expondremos como a través de un correo de fraude o scam podemos llegar a saber quién está detrás, sus técnicas y tácticas e incluso, sus herramientas. Enseñaremos a protegerse de este tipo de estafas y los riesgos que suponen para las personas y organizaciones.
 LOCATION:Aula 102\, Aulario II\, Universidad Rey Juan Carlos\, Móstoles (España)
 END:VEVENT
 END:VCALENDAR
