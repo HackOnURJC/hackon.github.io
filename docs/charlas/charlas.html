@@ -81,6 +81,10 @@
             22/02/2024 DE 9:00 a 14:30
             <br>
         </h3>
+        <h2 class="text-uppercase text-center" style="padding-bottom: 17px;margin-top: -10px;">
+            Aula 
+            <img class="img-fluid" style="width: 150px;;margin-top: -15px;" src="../assets/img/patrocinadores/logo_redeia.svg" alt="Logo Redeia">
+        </h2>
         <h4 class="text-uppercase text-center" style="padding-bottom: 17px;margin-top: -10px;">
             Aula Magna (003) &ndash; Aulario II
             <br>
@@ -109,62 +113,6 @@
         <div class="row mb-4 mr-1 ml-1 mr-md-5 ml-md-5">
             <div class="col-12 col-md-4 d-none d-md-block" style="margin-bottom: 31px;text-align: center;">
                 <img class="shadow img-fluid rounded mb-3 mb-md-0"
-                        src="../assets/img/ponentes/Enrique Fernandez.jpg"
-                        style="max-width: 65%;"
-                        alt="Foto Enrique Fernández">
-            </div>
-            <div class="col-12 col-md-8 text-center text-md-left">
-                <img src="../assets/img/es.svg" style="height: 20px; float: left; margin-top: 5px; margin-right: 10px;"
-                     alt="Spanish Flag"/>
-                <h3>Creación de herramientas propias de hacking y modificación de herramientas públicas para hacerlas indetectables</h3>
-                <h5><i>Enrique Fernández Lorenzo</i></h5>
-                <h6 style="margin-bottom: 0">9:30 - 10:30</h6>
-                <code style="color: var(--yellow);">Nivel intermedio</code>
-                <p class="d-xl-flex align-items-xl-start d-none d-lg-block">
-                    Se hablará de cómo se pueden crear herramientas propias enfocadas en la ciberseguridad, para no depender de otras publicadas que son mucho más detectables por los antivirus. Por otro lado, se hablará y se realizará una demostración de cómo se pueden modificar herramientas publicadas y hacerlas indetectables por los antivirus.
-                </p>
-                <div class="d-block d-lg-none mt-3"></div>
-                <a class="btn btn-primary" role="button" data-bss-hover-animate="pulse" style="background: rgb(135,18,15);"
-                   href="Enrique_Fernandez.html">Ver detalles</a>
-                <a class="btn btn-primary ml-2" role="button" data-bss-hover-animate="pulse" style="background: rgb(135,18,15);"
-                   href="../assets/ics/charla2.ics">Añadir al calendario</a>
-            </div>
-        </div>
-        <div class="row mb-4 mr-1 ml-1 mr-md-5 ml-md-5">
-            <div class="col-12 col-md-4 d-none d-md-block" style="margin-bottom: 31px;text-align: center;">
-                <img class="shadow img-fluid rounded mb-3 mb-md-0"
-                        src="../assets/img/ponentes/s4ur0n.jpg"
-                        style="max-width: 65%;"
-                        alt="Foto de Pedro Candel pequeña">
-            </div>
-            <div class="col-12 col-md-8 text-center text-md-left">
-                <img src="../assets/img/es.svg" style="height: 20px; float: left; margin-top: 5px; margin-right: 10px;"
-                     alt="Spanish Flag"/>
-                <h3>Exploiting CPU Side-Channels for real: MDS (Microarchitectural Data Sampling) tales</h3>
-                <h5><i>Pedro Candel aka S4ur0n</i></h5>
-                <h6 style="margin-bottom: 0">10:30 - 11:30</h6>
-                <code style="color: var(--red);">Nivel avanzado</code>
-                <p class="d-xl-flex align-items-xl-start d-none d-lg-block">
-                    Todo comenzó con los ataques descubiertos en el hardware de las CPUs de Intel del MDS (Microarchitectural Data Sampling) con la ejecución especulativa del RIDL y el Fallout en 2019, evolucionando con el TAA, L1DES, VRS, LVI, Snoop y en junio de 2020 con el CrossTalk (SRBDS), habiendo pasado por los archiconocidos Spectre y Meltdown... pero estamos en 2023 y ha habido tiempo de parchear el microcódigo de las CPUs o al menos, haber sustuido el hardware afectado (más costoso).
-
-Debido a que los ""deberes no se han hecho"" se presentan alojamientos compartidos en importantes ISP's con VPS que nos ofrecen CPUs no parcheadas, donde hoy en día, es posible realizar su explotación mediante el Microarchitectural Fill Buffer Data Sampling (MFBDS) y el Microarchitectural Load Port Data Sampling (MLPDS)[4] para su demostración.
-
-Nos centramos en el protocolo de enlace donde se negocia un secreto compartido mediante el intercambio de claves Diffie-Hellman (ECDH) con la curva elíptica 25519 donde nuestro objetivo, será obtener la clave privada del servidor para luego poder suplantarla. El usuario no tendrá privilegio alguno salvo la ejecución de código y estará en la misma máquina de la víctima.
-
-Se empleará un PoC al objeto de agilizar su resolución, para permitir su explotación en un tiempo razonable ya que con MLPDS es muy lento, en el servidor la víctima llamará en un bucle infinito a la función x25519() de la librería BoringSSL de Google y se conseguirá obtener la clave privada empleada por la curva elíptica del servidor. Con más tiempo y software estándard, podrían obtenerse las claves privadas, tokens, etc... o usar MFBDS paralelizado para ello ;)
-
-Esto demostrará por qué es importante parchear cualquier sistema tanto a nivel de sistema operativo, todo el software, sus aplicaciones, su firmware y la gran olvidada... nuestra querida CPU que es el corazón de cualquier proceso que se ejecuta.
-                </p>
-                <div class="d-block d-lg-none mt-3"></div>
-                <a class="btn btn-primary" role="button" data-bss-hover-animate="pulse" style="background: rgb(135,18,15);"
-                   href="Pedro_Candel.html">Ver detalles</a>
-                <a class="btn btn-primary ml-2" role="button" data-bss-hover-animate="pulse" style="background: rgb(135,18,15);"
-                   href="../assets/ics/charla2.ics">Añadir al calendario</a>
-            </div>
-        </div>
-        <div class="row mb-4 mr-1 ml-1 mr-md-5 ml-md-5">
-            <div class="col-12 col-md-4 d-none d-md-block" style="margin-bottom: 31px;text-align: center;">
-                <img class="shadow img-fluid rounded mb-3 mb-md-0"
                         src="../assets/img/ponentes/polop.jpeg"
                         style="max-width: 65%;"
                         alt="Foto de Carlos Polop pequeña">
@@ -174,7 +122,7 @@ Esto demostrará por qué es importante parchear cualquier sistema tanto a nivel
                      alt="World Flag"/>
                 <h3>Intro to macOS Security</h3>
                 <h5><i>Carlos Polop</i></h5>
-                <h6 style="margin-bottom: 0">12:00 - 13:00</h6>
+                <h6 style="margin-bottom: 0">09:30 - 10:30</h6>
                 <code style="color: var(--green);">Nivel básico</code>
                 <p class="d-xl-flex align-items-xl-start d-none d-lg-block">
                     Delve into the security features of macOS. Learn how macOS security services Gatekeeper, Sandbox, SIP, TCC and other protects mac users from running potentially unwanted software.
@@ -182,6 +130,53 @@ Esto demostrará por qué es importante parchear cualquier sistema tanto a nivel
                 <div class="d-block d-lg-none mt-3"></div>
                 <a class="btn btn-primary" role="button" data-bss-hover-animate="pulse" style="background: rgb(135,18,15);"
                    href="Carlos_Polop.html">Ver detalles</a>
+                <a class="btn btn-primary ml-2" role="button" data-bss-hover-animate="pulse" style="background: rgb(135,18,15);"
+                   href="../assets/ics/charla2.ics">Añadir al calendario</a>
+            </div>
+        </div>
+        <div class="row mb-4 mr-1 ml-1 mr-md-5 ml-md-5">
+            <div class="col-12 col-md-4 d-none d-md-block" style="margin-bottom: 31px;text-align: center;">
+                <img class="shadow img-fluid rounded mb-3 mb-md-0"
+                        src="../assets/img/ponentes/Alberto_Gonzalez.jpeg"
+                        style="max-width: 65%;"
+                        alt="Foto de Alberto Gonzalez">
+            </div>
+            <div class="col-12 col-md-8 text-center text-md-left">
+                <img src="../assets/img/es.svg" style="height: 20px; float: left; margin-top: 5px; margin-right: 10px;"
+                     alt="Spanish Flag"/>
+                <h3>Insider Threat: ¡Como entenderlos y cazarlos!</h3>
+                <h5><i>Alberto González Morales</i></h5>
+                <h6 style="margin-bottom: 0">10:30 - 11:30</h6>
+                <code style="color: var(--green);">Nivel básico</code>
+                <p class="d-xl-flex align-items-xl-start d-none d-lg-block">
+                    En esta charla se van a hablar de los tipos de Insiders, que caracteristicas tienen y que impacto pueden tener en una organizacion. Y que modelos de Machine Learning se utilizan para poder detectar estas amenazas.</p>
+                <div class="d-block d-lg-none mt-3"></div>
+                <a class="btn btn-primary" role="button" data-bss-hover-animate="pulse" style="background: rgb(135,18,15);"
+                   href="Alberto_Gonzalez.html">Ver detalles</a>
+                <a class="btn btn-primary ml-2" role="button" data-bss-hover-animate="pulse" style="background: rgb(135,18,15);"
+                   href="../assets/ics/charla2.ics">Añadir al calendario</a>
+            </div>
+        </div>
+        <div class="row mb-4 mr-1 ml-1 mr-md-5 ml-md-5">
+            <div class="col-12 col-md-4 d-none d-md-block" style="margin-bottom: 31px;text-align: center;">
+                <img class="shadow img-fluid rounded mb-3 mb-md-0"
+                        src="../assets/img/ponentes/Enrique Fernandez.jpg"
+                        style="max-width: 65%;"
+                        alt="Foto Enrique Fernández">
+            </div>
+            <div class="col-12 col-md-8 text-center text-md-left">
+                <img src="../assets/img/es.svg" style="height: 20px; float: left; margin-top: 5px; margin-right: 10px;"
+                     alt="Spanish Flag"/>
+                <h3>Creación de herramientas propias de hacking y modificación de herramientas públicas para hacerlas indetectables</h3>
+                <h5><i>Enrique Fernández Lorenzo</i></h5>
+                <h6 style="margin-bottom: 0">12:00 - 13:00</h6>
+                <code style="color: var(--yellow);">Nivel intermedio</code>
+                <p class="d-xl-flex align-items-xl-start d-none d-lg-block">
+                    Se hablará de cómo se pueden crear herramientas propias enfocadas en la ciberseguridad, para no depender de otras publicadas que son mucho más detectables por los antivirus. Por otro lado, se hablará y se realizará una demostración de cómo se pueden modificar herramientas publicadas y hacerlas indetectables por los antivirus.
+                </p>
+                <div class="d-block d-lg-none mt-3"></div>
+                <a class="btn btn-primary" role="button" data-bss-hover-animate="pulse" style="background: rgb(135,18,15);"
+                   href="Enrique_Fernandez.html">Ver detalles</a>
                 <a class="btn btn-primary ml-2" role="button" data-bss-hover-animate="pulse" style="background: rgb(135,18,15);"
                    href="../assets/ics/charla2.ics">Añadir al calendario</a>
             </div>
@@ -239,6 +234,10 @@ Esto demostrará por qué es importante parchear cualquier sistema tanto a nivel
                 22/02/2024 DE 15:30 a 19:45
                 <br>
             </h3>
+            <h2 class="text-uppercase text-center" style="padding-bottom: 17px;margin-top: -10px;">
+                Aula 
+                <img class="img-fluid" style="width: 250px;;margin-top: -15px;" src="../assets/img/patrocinadores/logo_etsii.svg" alt="Logo ETSII">
+            </h2>
             <h4 class="text-uppercase text-center" style="padding-bottom: 17px;margin-top: -10px;">
                 Aula 002 &ndash; Aulario II
                 <br>

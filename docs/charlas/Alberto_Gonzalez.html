@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Pedro Candel aka S4ur0n - HackOn 2024</title>
+    <title>Alberto González Morales - HackOn 2024</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-216047209-1"></script>
     <script>
@@ -80,7 +80,7 @@
         </div>
     </nav>
     <div class="container-fluid" style="padding-top: 100px;width: 100%;margin-bottom: 50px;text-align: center;">
-        <h1 class="text-uppercase text-center" style="padding-bottom: 17px;margin-bottom: 45px;">Exploiting CPU Side-Channels for real: MDS (Microarchitectural Data Sampling) tales</h1>
+        <h1 class="text-uppercase text-center" style="padding-bottom: 17px;margin-bottom: 45px;">Insider Threat: ¡Como entenderlos y cazarlos!</h1>
         <h3 class="text-uppercase text-center" style="padding-bottom: 17px;margin-top: -52px;margin-bottom: -11px;">
             22/02/2024&nbsp;10:30 - 11:30&nbsp;
             <a href="../assets/ics/jordi.ics" style="color: #8B0F0C;" target="_blank">
@@ -90,28 +90,28 @@
                 </span>
             </a>
         </h3>
-        <code style="color: var(--red);font-size: 20px;">Nivel avanzado<br></code>
+        <code style="color: var(--green);font-size: 20px;">Nivel básico<br></code>
         <img src="../assets/img/es.svg" style="height: 30px; margin-top: 10px;" alt="Spanish Flag"/>
         <div class="row mr-1 ml-1 mt-3 mr-md-5 ml-md-5 mt-md-5">
             <div class="col-12 col-md-5 mt-3 mt-md-0" style="text-align: center;">
-                <h4 style="margin-top: 0;margin-bottom: 8px;">Pedro Candel aka S4ur0n</h4>
-                <h6>AUDITOR LEADER - CS3 Group</h6>
+                <h4 style="margin-top: 0;margin-bottom: 8px;">Alberto González Morales</h4>
+                <h6>Cyber Insider Threat Analyst - Airbus</h6>
                 <img class="shadow img-fluid rounded"
-                     src="../assets/img/ponentes/s4ur0n.jpg"
+                     src="../assets/img/ponentes/Alberto_Gonzalez.jpeg"
                      style="margin-top: 15px;margin-bottom: 15px;width: 350px"
-                     alt="Fotografia de Jordi Prieto">
+                     alt="Fotografia de Alberto Gonzalez">
                 <p style="text-align: justify;font-size: 14px;margin-bottom: 10px;margin-top: 10px;">
-                    Conocido como "s4ur0n" (el ojo que todo lo ve), profesional dedicado a la ciberseguridad desde hace más de 20 años, habiendo trabajado en importantes compañías internacionales y ahora como CEO en CS3 Group. Es también docente en varias universidades nacionales e internacionales para masters de ciberseguridad y su especialidad es la seguridad ofensiva y el reversing, aunque ha pasado por la mayoría de disciplinas de ciberseguridad (forense, desarrollo seguro, etc.).
+                    Analista de seguridad con mas de 7 años de experiencia en el sector de ciberseguridad. Trabajando en Insider Risk colaborando con Data Scientist para crear un producto de monitorizacion de seguridad con modelos de Machine Learning.
                 </p>
                 <div class="row text-left d-xl-flex justify-content-xl-center">
                     <div class="col d-xl-flex justify-content-xl-start" style="text-align: center;">
                         <ul class="text-center list-inline text-center" style="text-align: center;width: 100%;">
                             <li class="list-inline-item">
-                                <a href="https://www.twitter.com/NN2ed_s4ur0n"
+                                <a href="https://www.linkedin.com/in/alberto-gonzalez-morales-14a25b150/"
                                    style="color: #8B0F0C;" target="_blank">
                                     <span class="fa-stack fa-lg">
                                         <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                        <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>
@@ -122,15 +122,7 @@
             <div class="col-12 col-md-7 order-first order-md-last text-center text-md-left">
                 <h5>Resumen de la actividad</h5>
                 <p style="text-align: justify;">
-                    Todo comenzó con los ataques descubiertos en el hardware de las CPUs de Intel del MDS (Microarchitectural Data Sampling) con la ejecución especulativa del RIDL y el Fallout en 2019, evolucionando con el TAA, L1DES, VRS, LVI, Snoop y en junio de 2020 con el CrossTalk (SRBDS), habiendo pasado por los archiconocidos Spectre y Meltdown... pero estamos en 2023 y ha habido tiempo de parchear el microcódigo de las CPUs o al menos, haber sustuido el hardware afectado (más costoso). <br>
-
-                    Debido a que los ""deberes no se han hecho"" se presentan alojamientos compartidos en importantes ISP's con VPS que nos ofrecen CPUs no parcheadas, donde hoy en día, es posible realizar su explotación mediante el Microarchitectural Fill Buffer Data Sampling (MFBDS) y el Microarchitectural Load Port Data Sampling (MLPDS)[4] para su demostración. <br>
-                    
-                    Nos centramos en el protocolo de enlace donde se negocia un secreto compartido mediante el intercambio de claves Diffie-Hellman (ECDH) con la curva elíptica 25519 donde nuestro objetivo, será obtener la clave privada del servidor para luego poder suplantarla. El usuario no tendrá privilegio alguno salvo la ejecución de código y estará en la misma máquina de la víctima. <br>
-                    
-                    Se empleará un PoC al objeto de agilizar su resolución, para permitir su explotación en un tiempo razonable ya que con MLPDS es muy lento, en el servidor la víctima llamará en un bucle infinito a la función x25519() de la librería BoringSSL de Google y se conseguirá obtener la clave privada empleada por la curva elíptica del servidor. Con más tiempo y software estándard, podrían obtenerse las claves privadas, tokens, etc... o usar MFBDS paralelizado para ello ;) <br>
-                    
-                    Esto demostrará por qué es importante parchear cualquier sistema tanto a nivel de sistema operativo, todo el software, sus aplicaciones, su firmware y la gran olvidada... nuestra querida CPU que es el corazón de cualquier proceso que se ejecuta.                </p>
+                    En esta charla se van a hablar de los tipos de Insiders, que caracteristicas tienen y que impacto pueden tener en una organizacion. Y que modelos de Machine Learning se utilizan para poder detectar estas amenazas. </p>
                 <h5>Requisitos para la actividad</h5>
                 <p style="text-align: justify;">-</p>
             </div>
