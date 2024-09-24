@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+LAST-MODIFIED:20231222T233358Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20240119T154940Z
+UID:1675420630526-13313@ical.marudot.com
+DTSTART;TZID=Europe/Madrid:20240222T190000
+DTEND;TZID=Europe/Madrid:20240222T194500
+SUMMARY:ROP-Assisted Malware
+URL:https://hackon.es/charlas/Rafael_y_Aitor.html
+DESCRIPTION:Ponente: Rafael López y Aitor Herrero\nResumen: Expondremos como a través de un correo de fraude o scam podemos llegar a saber quién está detrás, sus técnicas y tácticas e incluso, sus herramientas. Enseñaremos a protegerse de este tipo de estafas y los riesgos que suponen para las personas y organizaciones.
+LOCATION:Aula 102\, Aulario II\, Universidad Rey Juan Carlos\, Móstoles (España)
+END:VEVENT
+END:VCALENDAR
