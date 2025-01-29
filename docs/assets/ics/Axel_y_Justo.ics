@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+LAST-MODIFIED:20240422T053451Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20250129T162454Z
+UID:1738167874720-11720@ical.marudot.com
+DTSTART;TZID=Europe/Berlin:20250228T115000
+DTEND;TZID=Europe/Berlin:20250228T125000
+SUMMARY:Stop Copy&Paste\, understanding AMSI Bypasses 
+URL:https://hackon.es/charlas/Axel_y_Justo.html
+DESCRIPTION:En el día a día de un auditor\, suele ser necesario realizar evasiones en las medidas de seguridad. Una de las mas conocidas es la evasión de AMSI. Estamos acostumbrados lanzar comandos que internamente hagan "magia" pero no entendemos que esta pasando por detrás. En esta charla hablaremos sobre AMSI y desvelaremos el truco que hay detrás.
+LOCATION:Aula Magna (003) - Aulario I - Universidad Rey Juan Carlos\, Móstoles (España)
+END:VEVENT
+END:VCALENDAR
