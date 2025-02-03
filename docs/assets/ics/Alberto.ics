@@ -23,10 +23,10 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20250203T173422Z
+DTSTAMP:20250203T184855Z
 UID:1738604052025-79738@ical.marudot.com
-DTSTART;TZID=Europe/Berlin:20250228T112000
-DTEND;TZID=Europe/Berlin:20250228T115000
+DTSTART;TZID=Europe/Berlin:20250228T110000
+DTEND;TZID=Europe/Berlin:20250228T113000
 SUMMARY:Insiders Everywhere! Que hemos aprendido este año sobre ellos
 URL:https://hackon.es/talleres/Alberto.html
 DESCRIPTION:Vamos a ver los ultimos casos de este año de Insiders\, como se relaciona con el contexto geopolitico actual. \nTambien como detectamos en Airbus Insiders\, como realizamos inteligencia sobre casos externos de Insiders\, cual es nuestro punto de vista en motivacion y tipos
