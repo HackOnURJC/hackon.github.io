@@ -1,12 +1,11 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//ical.marudot.com//iCal Event Maker
 CALSCALE:GREGORIAN
 BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-LAST-MODIFIED:20240422T053451Z
-TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Berlin
-X-LIC-LOCATION:Europe/Berlin
+TZID:Europe/Madrid
+LAST-MODIFIED:20231222T233358Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
 BEGIN:DAYLIGHT
 TZNAME:CEST
 TZOFFSETFROM:+0100
@@ -23,13 +22,13 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20250129T082807Z
-UID:1738139273002-32235@ical.marudot.com
-DTSTART;TZID=Europe/Berlin:20250228T125000
-DTEND;TZID=Europe/Berlin:20250228T135000
-SUMMARY:Offensive Killchain 2024
-URL:https://hackon.es/charlas/Rafa_y_Aitor.html
-DESCRIPTION:Vamos a explicar un KillChain basado en un lnk malicioso con evasion de la macro por parte de microsoft command and control persistencia. Además\, enseñaremos la utilidad de simular el killchain de actores de amenazas para detectar posibles intrusiones y así\, estar preparados ante ataques reales. El threat hunting está evolucionando y con ello el equipo de Purple Team\, se explicará el por qué se hacen estos ejercicios y se hará una demostración.
-LOCATION:Aula Magna (003) - Aulario I - Universidad Rey Juan Carlos\\\, Móstoles (España)
+DTSTAMP:20240119T154940Z
+UID:1675420630526-13313@ical.marudot.com
+DTSTART;TZID=Europe/Madrid:20240222T190000
+DTEND;TZID=Europe/Madrid:20240222T194500
+SUMMARY:ROP-Assisted Malware
+URL:https://hackon.es/charlas/Rafael_y_Aitor.html
+DESCRIPTION:Ponente: Rafael López y Aitor Herrero\nResumen: Expondremos como a través de un correo de fraude o scam podemos llegar a saber quién está detrás, sus técnicas y tácticas e incluso, sus herramientas. Enseñaremos a protegerse de este tipo de estafas y los riesgos que suponen para las personas y organizaciones.
+LOCATION:Aula 102\, Aulario II\, Universidad Rey Juan Carlos\, Móstoles (España)
 END:VEVENT
 END:VCALENDAR

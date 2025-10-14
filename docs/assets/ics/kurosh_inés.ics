@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+LAST-MODIFIED:20231222T233358Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20240119T154940Z
+UID:1675420630526-13313@ical.marudot.com
+DTSTART;TZID=Europe/Madrid:20240222T130000
+DTEND;TZID=Europe/Madrid:20240222T140000
+SUMMARY:ROP-Assisted Malware
+URL:https://hackon.es/charlas/Inés_y_Kurosh.html
+DESCRIPTION:Ponente: Kurosh Dabbagh e Inés Martín\nResumen: Durante un ejercicio de Red Team, es fundamental contar con malware que sea capaz de evadir los sistemas de seguridad instalados en los dispositivos. Ciertas actividades ejecutadas por el malware pueden desencadenar el escaneo de la memoria de un proceso por parte de los EDR. Para evitar esta detección, en esta charla profundizamos en el uso de Return Oriented Programming (ROP) como medida de evasión ante estos escaneos de memoria. 
+LOCATION:Aula Magna\, Aulario III\, Universidad Rey Juan Carlos\, Móstoles (España)
+END:VEVENT
+END:VCALENDAR
