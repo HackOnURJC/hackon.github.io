@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+LAST-MODIFIED:20231222T233358Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20240119T154940Z
+UID:1675420630526-13313@ical.marudot.com
+DTSTART;TZID=Europe/Madrid:20240222T153000
+DTEND;TZID=Europe/Madrid:20240222T163000
+SUMMARY:La Amenaza Cuántica a la Ciberseguridad: Desafíos y Soluciones.
+URL:https://hackon.es/charlas/Jordi_Prieto.html
+DESCRIPTION:Ponente: Jordi Prieto\nResumen: La era de la computación cuántica está a la vuelta de la esquina\, trayendo consigo desafíos significativos para la criptografía convencional. En esta charla\, exploraremos cómo la computación cuántica pone en riesgo los algoritmos criptográficos actuales\, poniendo en jaque toda la criptografía asimétrica actual y discutiremos la necesidad urgente de transitar hacia sistemas criptográficos post-cuánticos
+LOCATION:Aula 102\, Aulario II\, Universidad Rey Juan Carlos\, Móstoles (España)
+END:VEVENT
+END:VCALENDAR

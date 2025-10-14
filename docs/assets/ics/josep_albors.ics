@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+LAST-MODIFIED:20231222T233358Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20240119T154940Z
+UID:1675420630526-13313@ical.marudot.com
+DTSTART;TZID=Europe/Madrid:20240222T173000
+DTEND;TZID=Europe/Madrid:20240222T180000
+SUMMARY:ROP-Assisted Malware
+URL:https://hackon.es/charlas/Josep_Albors.html
+DESCRIPTION:Ponente: Josep Albors\nResumen: El grupo Lazarus (también conocido como HIDDEN COBRA) es un infame actor de amenazas alineado con Corea del Norte que ha estado activo al menos desde 2009. Es responsable de incidentes de gran repercusión como el hackeo de Sony Pictures Entertainment, los ataques a entidades bancarias en 2016 que lograron robar decenas de millones de dólares, el incidente protagonizado por WannaCry en 2017, y un largo historial de ataques contra las infraestructuras públicas y críticas de Corea del Sur desde, al menos, 2011. La diversidad, el número y las peculiaridades en la implementación de las campañas de Lazarus definen a este grupo, así como apoyarse en los tres pilares de las actividades ciberdelictivas: ciberespionaje, cibersabotaje y búsqueda de beneficios económicos.\nEn esta ponencia, se tratarán varias de las campañas protagonizadas por este grupo en 2022 y 2023, incluyendo un ataque contra una empresa aeroespacial española, donde se describirá y proporcionará un análisis técnico de las herramientas empleadas por los atacantes, con especial énfasis en los payload finales desplegados por los atacantes.\nDurante la presentación, se guiará a la audiencia a través de toda la cadena de infección de estas operaciones, operaciones que se hacen valer, por ejemplo, de conversaciones con un falso reclutador a través de LinkedIN, archivos de configuración y otros que contienen las claves necesarias para descifrar los payloads y también de algunas secuencias de comandos del lado de los servidores comprometidos y utilizados como parte de la infraestructura de estos ataques. Así mismo, también se explicarán los casos de éxito (y fracaso) a la hora de acercamos a los profesionales de seguridad de las empresas afectadas y a los administradores web de los servidores comprometidos. 
+LOCATION:Aula 102\, Aulario II\, Universidad Rey Juan Carlos\, Móstoles (España)
+END:VEVENT
+END:VCALENDAR
