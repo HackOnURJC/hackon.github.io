@@ -152,3 +152,9 @@ span {
     width: 100%;
   }
 }
+
+#carousel-1 .carousel-item img {
+    height: 500px;       /* 1. Define una altura fija */
+    object-fit: cover;   /* 2. Recorta la imagen para llenar el espacio sin deformarla */
+    width: 100%;         /* Asegura que ocupe todo el ancho */
+}
