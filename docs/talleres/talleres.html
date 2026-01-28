@@ -31,12 +31,12 @@
     <link rel="stylesheet" href="../assets/css/Team-Clean.css">
 </head>
 
-<body id="page-top">
+<body id="page-top" class="d-flex flex-column" style="min-height: 100vh;">
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav" style="padding-top: 4px;padding-bottom: 6px;">
         <div class="container-fluid">
             <a class="navbar-brand" href="/" style="background: url(&quot;../assets/img/icons_download/HackOn_Horizontal_2026_Blanco.png&quot;);">
                 <img src="../assets/img/icons_download/HackOn_Horizontal_2026_Blanco.png" style="width: 200px;"
-                     alt="Logo HackOn 2023 horizontal">
+                     alt="Logo HackOn 2026 horizontal">
             </a>
             <button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" data-toogle="collapse"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
@@ -52,15 +52,40 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid" style="padding-top: 100px;width: 100%;margin-bottom: 40px;">
+    <main class="flex-fill">
+        <div class="container-fluid" style="padding-top: 100px;width: 100%;margin-bottom: 40px;">
         <h1 class="text-uppercase text-center" style="padding-bottom: 17px;margin-bottom: 45px;">TALLERES&nbsp;</h1>
-        <h3 class="text-uppercase text-center" style="padding-bottom: 17px;margin-top: -52px;">	Próximamente<br></h3>
-        <!--<h5 class="text-center bg-warning flash animated" style="padding: 10px;margin-bottom: 15px;">Hay dos franjas de talleres simultáneos. Cada persona únicamente podrá participar en un taller de cada franja.</h5>-->
+        <h3 class="text-uppercase text-center" style="padding-bottom: 17px;margin-top: -52px;">28/02/2026 DE 09:30 A 14:00<br></h3>
+        <!--<h3 class="text-uppercase text-center" style="padding-bottom: 17px;margin-top: -52px;">	Próximamente<br></h3>-->
+        <h5 class="text-center bg-warning flash animated" style="padding: 10px;margin-bottom: 15px;">Hay dos franjas de talleres simultáneos. Cada persona únicamente podrá participar en un taller de cada franja.</h5>
         <!--<h5 class="text-center text-light bg-info flash animated" style="padding: 10px;margin-bottom: 50px;">
             Los alumnos de la URJC recibirán 0,1 ECTS (RAC) por cada taller al que asistan.
             <br>
         </h5>-->
+        <div class="row d-xl-flex text-center pr-1 pl-1 pt-2 pr-md-5 pl-md-5" style="background: rgb(240, 240, 240);">
+            <div class="col-12 mb-3 mt-3">
+                <h4 class="text-uppercase text-center">Talleres I: 09:30 - 11:30</h4>
+            </div>
+            <div class="col-sm mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Break In Circuits Unleashed</h5>
+                        <h6><i>Iván Martínez Alcoceba (@bich0) y Sergio Valcárcel Uría (@sergiovalcarceluria)</i></h6>
+                        <!-- Aqui va el patrocinador-->
+                        <h6>Aula 002 &ndash; Aulario II</h6>
+                        <code style="color: var(--yellow);">Nivel intermedio</code>
+                        <p class="d-xl-flex align-items-xl-start mb-0">El taller se centra en los microcontroladores ESP32, específicamente el modelo ESP32-S2, como vector de ataque físico y lógico a través de su interfaz USB. El objetivo es mostrar cómo estos dispositivos pueden ser programados para emular periféricos tipo HID y comprometer equipos sin necesidad de explotar vulnerabilidades de software tradicionales que puedan alertar antivirus. Podría considerarse un RubberDucky pero con esteroides, controlado por discord y por menos de lo que te cuesta el envío en Hak5. Una versión mucho más introductoria fue impartida en la HackOn 2025. En esta propuesta pretendemos contar todas las partes del proyecto que eliminamos de esta charla, medidas de evasión, ofuscación y las distintas mejoras y nuevas funciones que ha sufrido el proyecto. 
+                        </p>
+                        <a class="btn btn-primary mt-3" role="button" data-bss-hover-animate="pulse" style="background: rgb(135,18,15);"
+                            href="Ivan_y_Sergio.html">Ver detalles</a>
+                        <a class="btn btn-primary ml-2 ml-lg-0 mt-3" role="button" data-bss-hover-animate="pulse" style="background: rgb(135,18,15);"
+                           href="../assets/ics/ivan_sergio.ics">Añadir al calendario</a>
+                    </div>
+                </div>
+            </div>
+            
     </div>
+    </main>
     <footer>
         <div class="container">
             <div class="mb-3 font-weight-bold" style="color: rgb(17,17,17);"><span class="copyright" style="color: rgb(255,255,255);">Copyright&nbsp;© HackOn 2026</span></div>
