@@ -26,12 +26,12 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTSTAMP:20250129T164500Z
 UID:hackeando-aire-hackon-2026@hackon.es
-DTSTART;TZID=Europe/Madrid:20250228T120000
-DTEND;TZID=Europe/Madrid:20250228T140000
+DTSTART;TZID=Europe/Madrid:20260228T120000
+DTEND;TZID=Europe/Madrid:20260228T140000
 SUMMARY:Hackeando el Aire
 DESCRIPTION:Ponente: Eduardo Evora Castro (@aka.evhack)\n\nResumen:\nEduardo Evora Castro (@aka.evhack) nos trae "Hackeando el aire" Análisis práctico de ataques a redes inalámbricas, explorando vulnerabilidades y técnicas de explotación en WiFi y BLE mediante ejercicios controlados. 📡⚔️Donde el aire deja de ser invisible. 🧠💨
 \n\nNivel: Intermedio | Temática: Seguridad Ofensiva | Duración: 120 minutos\n\nBio Ponente:\nEduardo Evora Castro es profesor de Ciclos Informáticos y del MasterFP de Ciberseguridad en el Centro de Estudios LinkiaFP. Oficial retirado del Ejército Terrestre de Venezuela. Docente por vocación y profesión, apasionado de la filosofía hacker y profesional IT con más de 25 años de experiencia.\n\nContacto:\nhttps://www.linkedin.com/in/eduardoevora
-LOCATION:Aula Magna (001) - Aulario II - Universidad Rey Juan Carlos\, Móstoles (España)
+LOCATION:Aula Magna (003) - Aulario II - Universidad Rey Juan Carlos\, Móstoles (España)
 END:VEVENT
 
 END:VCALENDAR
