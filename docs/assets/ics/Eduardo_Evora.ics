@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HackOn//Event Maker//ES
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+LAST-MODIFIED:20240422T053451Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+
+BEGIN:VEVENT
+DTSTAMP:20250129T164500Z
+UID:hackeando-aire-hackon-2026@hackon.es
+DTSTART;TZID=Europe/Madrid:20250228T120000
+DTEND;TZID=Europe/Madrid:20250228T140000
+SUMMARY:Hackeando el Aire
+DESCRIPTION:Ponente: Eduardo Evora Castro (@aka.evhack)\n\nResumen:\nEduardo Evora Castro (@aka.evhack) nos trae "Hackeando el aire" Análisis práctico de ataques a redes inalámbricas, explorando vulnerabilidades y técnicas de explotación en WiFi y BLE mediante ejercicios controlados. 📡⚔️Donde el aire deja de ser invisible. 🧠💨
+\n\nNivel: Intermedio | Temática: Seguridad Ofensiva | Duración: 120 minutos\n\nBio Ponente:\nEduardo Evora Castro es profesor de Ciclos Informáticos y del MasterFP de Ciberseguridad en el Centro de Estudios LinkiaFP. Oficial retirado del Ejército Terrestre de Venezuela. Docente por vocación y profesión, apasionado de la filosofía hacker y profesional IT con más de 25 años de experiencia.\n\nContacto:\nhttps://www.linkedin.com/in/eduardoevora
+LOCATION:Aula Magna (001) - Aulario II - Universidad Rey Juan Carlos\, Móstoles (España)
+END:VEVENT
+
+END:VCALENDAR
