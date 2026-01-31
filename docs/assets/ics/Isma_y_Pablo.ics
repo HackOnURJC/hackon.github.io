@@ -25,8 +25,8 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTSTAMP:20250129T164500Z
 UID:macosxpc-hackon-2026@hackon.es
-DTSTART;TZID=Europe/Berlin:20250228T115000
-DTEND;TZID=Europe/Berlin:20250228T125000
+DTSTART;TZID=Europe/Berlin:20260228T115000
+DTEND;TZID=Europe/Berlin:20260228T125000
 SUMMARY:macOS XPC Exploiting n-days for !(😄 && 💸)
 DESCRIPTION:Ponentes: Ismael Gómez Esquilichi y Pablo Redondo Castro\n\nResumen:\nEn esta charla Pablo e Ismael abordarán la explotación practica en directo de varias vulnerabilidades recientes encontradas en macOS. Mostrarán cómo funciona el protocolo XPC\, uno de los pilares del sistema\, y técnicas avanzadas para explotar el sistema de ficheros propietario.\n\nNivel: Intermedio | Temática: Seguridad Ofensiva\n\nBio Ponentes:\n- Ismael Gómez: Prodsec Engineer @ Okta. Appsec & macOS research.\n- Pablo Redondo: Senior Security Engineer @ Aily Labs.\n\nContacto:\nhttps://es.linkedin.com/in/pablo-redondo-castro-40a71a253
 LOCATION:Aula Magna (003) - Aulario II - Universidad Rey Juan Carlos\, Móstoles (España)
