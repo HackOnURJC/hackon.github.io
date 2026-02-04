@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HackOn//Event Maker//ES
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+LAST-MODIFIED:20240422T053451Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20250129T170000Z
+UID:feeding-C2-with-Beacon-Objects-Files-hackon-2026@hackon.es
+DTSTART;TZID=Europe/Madrid:20260227T173500
+DTEND;TZID=Europe/Madrid:20260227T183500
+SUMMARY:Feeding C2 with Beacon Object Files
+DESCRIPTION:Ponente: Iñaki Tornos Portugal (@Kr4k3nEU)\n\nResumen:\nIñaki Tornos Portugal (@Kr4k3nEU) nos trae "Feeding C2 with Beacon Object Files". \n
+\nNivel: Intermedio | Temática: Exposición de una nueva herramienta. | Duración: 60 minutos\n\nBio Ponente:\nIñaki Tornos es un profesional apasionado por la ciberseguridad ofensiva, especializado en red teaming, emulación de adversarios, pruebas de penetración e investigación de amenazas. Cuenta con múltiples certificaciones reconocidas en la industria (OSCP, CRTL, CRTE, CRTO, BSCP) y una sólida experiencia práctica en la simulación de amenazas cibernéticas avanzadas, ayudando a las organizaciones a identificar y mitigar riesgos de seguridad de forma eficaz.
+Actualmente trabaja como Desarrollador de Software de Ciberseguridad Ofensiva en Airbus Public Safety & Security.\n\nContacto:\nhttps://www.linkedin.com/in/i%C3%B1aki-tornos-572580177?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+LOCATION:Aula Magna (003) - Aulario II - Universidad Rey Juan Carlos\, Móstoles (España)
+END:VEVENT
+END:VCALENDAR
