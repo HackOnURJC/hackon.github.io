@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HackOn//Event Maker//ES
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+LAST-MODIFIED:20240422T053451Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20250129T170000Z
+UID:HACKING-CRANES-MAMA-hackon-2026@hackon.es
+DTSTART;TZID=Europe/Madrid:20260227T125000
+DTEND;TZID=Europe/Madrid:20260227T135000
+SUMMARY:HACKING CRANES MAMA!
+DESCRIPTION:Esta charla "retro", a modo de "juego" con la radiofrecuencia y tras haber pasado anteriormente por otros niveles previos como los juguetes sexuales, vehículos, embarcaciones y aeronaves, expone ahora las amenazas y vulnerabilidades que presentan los sistemas inalámbricos de control de máquinaria industrial, en concreto para las grúas, montacargas, elevadores, etc. donde finaliza demostrando ataques reales a ellas. Por ejemplo, el transporte portuario siempre ha sido una parte importante del comercio global, en el que las grúas juegan un papel vital. En el sector de la construcción, las grúas son la columna vertebral para construir desde las estructuras de pequeña escala hasta los edificios más grandiosos... Si estos ataques se llevasen a cabo... ¿Podrían paralizarse actividades imprescindibles con altas consecuencias económicas?
+LOCATION:Aula Magna (003) - Aulario II - Universidad Rey Juan Carlos\, Móstoles (España)
+END:VEVENT
+END:VCALENDAR
