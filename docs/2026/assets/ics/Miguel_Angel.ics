@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HackOn//Event Maker//ES
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+LAST-MODIFIED:20240422T053451Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20260129T164500Z
+UID:hackon-2026@hackon.es
+DTSTART;TZID=Europe/Madrid:20260228T120000
+DTEND;TZID=Europe/Madrid:20260228T140000
+SUMMARY:Operación real de SOC guiada por IA e inteligencia de amenazas
+DESCRIPTION:En un panorama donde los adversarios operan a una velocidad sin precedentes, el Centro de Operaciones de Seguridad (SOC) tradicional se enfrenta al agotamiento por alertas y a brechas de visibilidad. Esta sesión desglosa cómo la convergencia de la IA generativa y la Inteligencia de Amenazas (Threat Intel) integrada permite una operación de defensa moderna. Analizaremos un flujo de trabajo real donde la IA no solo automatiza tareas repetitivas, sino que contextualiza cada detección con datos en tiempo real sobre el adversario. Los asistentes descubrirán cómo reducir drásticamente el Tiempo Medio de Detección (MTTD) y Respuesta (MTTR), permitiendo que los analistas se centren en lo que realmente importa: detener la intrusión antes de que se convierta en una brecha.
+LOCATION:Aula Magna (103) - Aulario II - Universidad Rey Juan Carlos\, Móstoles (España)
+END:VEVENT
+END:VCALENDAR

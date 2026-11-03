@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HackOn//Event Maker//ES
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+LAST-MODIFIED:20240422T053451Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20250129T170000Z
+UID:hackon-2026@hackon.es
+DTSTART;TZID=Europe/Madrid:20260227T183500
+DTEND;TZID=Europe/Madrid:20260227T190500
+SUMMARY:​Metodología para investigación de vulnerabilidades en aplicaciones Android
+DESCRIPTION:Esta charla presenta una metodología práctica, sistemática y reproducible para identificar vulnerabilidades en aplicaciones Android a partir del análisis de sus APKs. A través de un enfoque combinado de reversing, análisis estático y análisis dinámico, se mostrarán las fases clave para evaluar de forma eficaz la superficie de ataque de una aplicación móvil. La metodología cubre desde los primeros pasos: revisión del AndroidManifest, análisis de componentes exportados, permisos, intents implícitos y superficies de entrada, hasta técnicas avanzadas como inspección de tráfico, hooking con Frida, manipulación de WebViews, exploración de deep links, análisis de almacenamiento interno y evaluación de mecanismos criptográficos. Se ilustrarán los vectores más comunes que permiten escalar a vulnerabilidades críticas (Intent Injection, acceso no autorizado a Activities/Services, WebView XSS, insecure data storage, lógica insegura, bypass de autenticación, abuso de proveedores de contenido, etc.), junto con ejemplos reales.
+LOCATION:Aula Magna (003) - Aulario II - Universidad Rey Juan Carlos\, Móstoles (España)
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HackOn//Event Maker//ES
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+LAST-MODIFIED:20240422T053451Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20250129T170000Z
+UID:Pentesting-Android-en-claro-del-Manifest-al-hallazgo-2026@hackon.es
+DTSTART;TZID=Europe/Madrid:20260228T093000
+DTEND;TZID=Europe/Madrid:20260228T113000
+SUMMARY:Pentesting Android en claro: del Manifest al hallazgo
+DESCRIPTION:Taller 100% práctico para que el asistente salga con una guía clara y repetible de auditoría Android. Partiremos de un APK de laboratorio y, usando OWASP MAS/MSTG como marco, cubriremos: análisis estático exprés (Manifest: componentes exportados, permisos, flags; búsqueda de credenciales/URLs y trazas de depuración; señales de ofuscación) y dinámico esencial (ADB básico, proxificar con Burp, verificación de almacenamiento y logs —tokens/datos en SharedPreferences y WebView— y chequeo de autenticación/sesión como JWT). Revisaremos superficies típicas con WebView y deeplinks/intents. Si el tiempo lo permite, breve demo de Frida/Objection para entender el pinning.
+END:VEVENT
+END:VCALENDAR
