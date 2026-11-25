@@ -2,8 +2,12 @@ $(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
+    // Solo actuar si el enlace apunta a un ancla de ESTA página, el destino existe
+    // y no lo gestiona ya agency.js (js-scroll-trigger)
+    if (this.hash !== "" &&
+        this.pathname.replace(/^\//, '') === location.pathname.replace(/^\//, '') &&
+        $(this.hash).length &&
+        !$(this).hasClass('js-scroll-trigger')) {
       // Prevent default anchor click behavior
       event.preventDefault();
 
@@ -32,33 +36,42 @@ var btn = document.getElementById("boton");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("closeModal")[0];
 
-btn.onclick = function(){
-  modal.style.display = "block";
+if (modal && btn) {
+  btn.onclick = function(){
+    modal.style.display = "block";
+  }
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
+if (modal && span) {
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
 }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+if (modal) {
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
   }
 }
 
 var myArray = ['../assets/img/ponentes/Esperanza_Rodriguez.jpeg', '../assets/img/ponentes/Alberto_Gonzalez.jpeg'];
 
 var count = 0;
-setInterval(function() {
-  //use this below line if you want random images
-  //var rand = myArray[Math.floor(Math.random() * myArray.length)];
+// Solo rotar la foto si existe #mainPhoto en esta página
+if (document.getElementById('mainPhoto')) {
+  setInterval(function() {
+    //use this below line if you want random images
+    //var rand = myArray[Math.floor(Math.random() * myArray.length)];
 
-  if (count >= myArray.length) count = 0; // if it is last image then show the first image.
-  // use this below line if you want images in order.
-  var rand = myArray[count];
-  document.getElementById('mainPhoto').src = rand;
-  document.getElementById('mainPhoto').alt = rand; // use 'alt' to display the image name if image is not found
-  count++;
-}, 1000); 
+    if (count >= myArray.length) count = 0; // if it is last image then show the first image.
+    // use this below line if you want images in order.
+    var rand = myArray[count];
+    document.getElementById('mainPhoto').src = rand;
+    document.getElementById('mainPhoto').alt = rand; // use 'alt' to display the image name if image is not found
+    count++;
+  }, 1000);
+}

@@ -1,6 +1,16 @@
 (function($) {
   "use strict"; // Start of use strict
 
+  // Easing por si el plugin jquery.easing no está cargado
+  if (!$.easing.easeInOutExpo) {
+    $.easing.easeInOutExpo = function(x, t, b, c, d) {
+      if (t == 0) return b;
+      if (t == d) return b + c;
+      if ((t /= d / 2) < 1) return c / 2 * Math.pow(2, 10 * (t - 1)) + b;
+      return c / 2 * (-Math.pow(2, -10 * --t) + 2) + b;
+    };
+  }
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -26,4 +36,4 @@
     offset: 56
   });
 
-
+})(jQuery); // End of use strict
